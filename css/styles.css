@@ -1,0 +1,16 @@
+body {
+	margin:0;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+	position: absolute;
+}
+.video{
+	width: 1280;
+	height: 720;
+	overflow: hidden;
+	display: none;
+}
+.video .on{
+	display: block;
+}
