@@ -5,19 +5,26 @@ body {
 	user-select:none;
 	position: absolute;
 }
-.video{
+#video{;
+	margin: 0;
 	width: 1280px;
 	height: 720px;
 	overflow: hidden;
+	display: block;
 	/*display: none;*/
 }
-.video .on{
+/*.video{
 	display: block;
-}
+}*/
 img {
 	position: absolute;
-	/*display: none;*/
+	display: none;
+	width: 1280px;
+	height: 720px;
+	margin: 0;
+}
+.background {
+	background-color: #000;
 	width: 100%;
 	height: 100%;
-	margin: 0;
 }

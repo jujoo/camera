@@ -11,15 +11,15 @@
 		}
 		#example {
 			position: absolute;
-			top: 324px;
-			left: 411px;
+			top: 315px;
+			left: 290px;
 			width: 600px;
 			height: 400px;
 		}
 		#gallery {
 			position: absolute;
-			top: 324px;
-			left: 411px;
+			top: 315px;
+			left: 290px;
 			width: 600px;
 			height: 400px;
 		}
@@ -28,13 +28,14 @@
 <body>
 
 	<!-- 사진이 찍힐경우 마스킹 이미지 -->
+	<div class="background"></div>
 	<div id="example"></div>
 	<div id="gallery"></div>
-	<img src="masking.png" alt="masking">
-	<div class="video on">
+	<img src="masking.png" alt="masking" id="masking">
+	<div>
 		<!-- 비디오 실행 -->
-		<video>
-			<source src="video/lasardina.mov" type="video/mov">
+		<video id="video" autoplay="autoplay">
+			<source src="video/lasardina.mp4" type="video/mp4">
 		</video>
 	</div>
 </body>
