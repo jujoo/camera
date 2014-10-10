@@ -15,24 +15,16 @@ $(document).ready(function(){
       	$("#video").remove();
     	})
     $("#masking").fadeIn(500);
- //    $(function(){
-	// $( '#example' ).photobooth().on( "image", function( event, dataUrl ){
-	// 	$( "#gallery" ).show().html( '<img src="' + dataUrl + '" >');
-	// 	});
-	// 	setTimeout(function(){
-	// 		$('.trigger').click();
-	// 	}, 5000);
-	// });
-
-	})
-	$(function(){
-		$( '#example' ).photobooth().on( "image", function( event, dataUrl ){
-			$( "#gallery" ).show().html( '<img src="' + dataUrl + '" >');
+    // $(function(){
+	$( '#example' ).photobooth().on( "image", function( event, dataUrl ){
+		$( "#gallery" ).show().html( '<img src="' + dataUrl + '" >');
 		});
 		setTimeout(function(){
 			$('.trigger').click();
 		}, 5000);
-	});
+	// });
+
+	})
 });
 
 
